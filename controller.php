@@ -10,6 +10,7 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 
 class Controller extends Package
 {
+
     protected $pkgHandle = 'markdown_converter';
     protected $appVersionRequired = '5.7.3.1';
     protected $pkgVersion = '0.0.1';
@@ -33,4 +34,5 @@ class Controller extends Package
             BlockType::installBlockType('markdown_converter', $pkg);
         }
     }
+
 }
