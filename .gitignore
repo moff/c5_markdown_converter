@@ -1,0 +1,9 @@
+# Aptana
+.settings/**
+.project
+
+# Idea
+.idea
+
+# Do not include the vendor libraries
+vendor/**
