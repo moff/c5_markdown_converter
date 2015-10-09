@@ -8,7 +8,7 @@ This package adds a new block type which can be used on any page and filled with
 2. Create `markdown_converter` folder inside `packages` folder within your installation of concrete5.
 3. Extract contents of the archive to the `markdown_converter` folder.
 4. Make sure you have [Composer](https://getcomposer.org/) installed.
-5. Open your terminal and navigate to the `packages/markdown_converter` folder.
+5. Open terminal and navigate to the `packages/markdown_converter` folder.
 6. Install the composer packages by running `composer install`.
 7. Navigate to your site's dashboard and install this package.
 

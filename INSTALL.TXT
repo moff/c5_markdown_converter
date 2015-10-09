@@ -1,0 +1,10 @@
+# Installation instructions
+
+1. Unzip this file in your site's packages/ directory.
+2. Make sure you have Composer installed(https://getcomposer.org/).
+3. Open terminal and navigate to the `packages/markdown_converter` folder.
+4. Install the composer packages by running `composer install`.
+5. Login to your site as an administrator.
+6. Find the "Add Functionality" page in your dashboard.
+7. Find this package in the list of packages awaiting installation.
+8. Click the "install" button.
