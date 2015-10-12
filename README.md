@@ -12,6 +12,10 @@ This package adds a new block type which can be used on any page and filled with
 6. Install the composer packages by running `composer install`.
 7. Navigate to your site's dashboard and install this package.
 
+***
+
+File INSTALL.TXT is for package's archive available at concrete5 Marketplace.
+
 ## License
 
 Licensed under the MIT license. See LICENSE for more information.
