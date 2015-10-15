@@ -11,7 +11,7 @@ class Controller extends Package
 
     protected $pkgHandle = 'markdown_converter';
     protected $appVersionRequired = '5.7.3.1';
-    protected $pkgVersion = '0.9.6';
+    protected $pkgVersion = '1.0';
 
     public function getPackageName()
     {
