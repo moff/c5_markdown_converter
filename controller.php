@@ -3,10 +3,6 @@ namespace Concrete\Package\MarkdownConverter;
 
 use Package;
 use BlockType;
-use Illuminate\Filesystem\Filesystem;
-
-$filesystem = new Filesystem();
-$filesystem->getRequire(dirname(__FILE__) . '/vendor/autoload.php');
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
@@ -15,7 +11,7 @@ class Controller extends Package
 
     protected $pkgHandle = 'markdown_converter';
     protected $appVersionRequired = '5.7.3.1';
-    protected $pkgVersion = '0.9.5';
+    protected $pkgVersion = '0.9.6';
 
     public function getPackageName()
     {
@@ -35,6 +31,11 @@ class Controller extends Package
         if (!is_object($bt)) {
             BlockType::installBlockType('markdown_converter', $pkg);
         }
+    }
+
+    public function on_start()
+    {
+        require $this->getPackagePath() . '/vendor/autoload.php';
     }
 
 }
