@@ -10,8 +10,8 @@ class Controller extends BlockController
 {
 
     protected $btTable = 'btMarkdownConverter';
-    protected $btInterfaceWidth = "350";
-    protected $btInterfaceHeight = "240";
+    protected $btInterfaceWidth = "550";
+    protected $btInterfaceHeight = "440";
     protected $btDefaultSet = 'basic';
 
     public function getBlockTypeName()
